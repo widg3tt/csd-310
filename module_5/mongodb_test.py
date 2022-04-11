@@ -9,4 +9,5 @@ url = "mongodb+srv://admin:admin@cluster0.ngnuu.mongodb.net/pytech?retryWrites=t
 client = MongoClient(url, tls=True, tlsAllowInvalidCertificates=True)
 db = client.pytech
 collection = db.list_collection_names()
+print("-- Pytech Collection List --")
 print(collection)
