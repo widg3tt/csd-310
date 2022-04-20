@@ -1,2 +1,2 @@
-INSERT INTO team(team_name, mascot)
-    VALUES('Team Gryffindor', 'Lions');
+INSERT INTO player(first_name, last_name, team_id)
+    VALUES('Hermione', 'Granger', 1);
